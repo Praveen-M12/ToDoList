@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./bgI.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+#heading {
+    height: 2em;
+    font-size: 70px;
+    background-color: #5a96c7;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#b-box {
+    width: 50%;
+    min-width: 300px;
+    height: 600px;
+    border: 2px solid black;
+    border-top-style: double;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.17); /* Adjust opacity here */
+}
+
+#box1, #box2, #box3 {
+    width: 80%;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Times New Roman', serif; 
+    background-color: #fff;
+    border: 2px solid rgb(14, 0, 0);
+}
+
+#box2 {
+    font-size: 20px;
+    background-color: #f0e68c;
+}
+
+#box3 {
+    height: auto;
+    overflow-y: auto;
+}
+
+li {
+    list-style-type: none;
+    margin: 10px 0;
+}
+
+#btn {
+    background-color: #5bc0de; /* Change button color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #46b8da; /* Change button color on hover */
+}
+
